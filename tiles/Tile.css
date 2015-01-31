@@ -1,0 +1,47 @@
+.tile {
+	position:absolute;
+	width:10px;
+	height:10px;
+
+	background:#444;
+
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.path {
+	position:absolute;
+	width:10px;
+	height:10px;
+
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.blank {
+	position:absolute;
+	width:10px;
+	height:10px;
+
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.tile-hover{
+	background: #aaa;
+}
+
+.tile-hover.active {
+	background: #aa2
+}
+
+.active {
+	background:#2aa;
+}
+
+.active-path{
+	background:#777;
+}
